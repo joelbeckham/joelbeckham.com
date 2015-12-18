@@ -1,5 +1,5 @@
 ---
-title: 'Triggering xdebug from PHPStorm's REST client'
+title: "Triggering xdebug from PHPStorm's REST client"
 author: jbeckham
 layout: post
 date: 2014-01-09
