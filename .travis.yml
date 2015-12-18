@@ -3,7 +3,7 @@ go:
 - '1.3'
 install:
   - go get github.com/spf13/hugo
-script: hugo -t hyde
+script: hugo --theme="hyde" --destination="public"
 deploy:
   provider: s3
   access_key_id: AKIAIRI7P67TRX27IPZA
