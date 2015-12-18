@@ -23,7 +23,7 @@ Add a bucket policy:
 
 Under Static Site Hosting, select "Enable website hosting".
 Set index document to _index.html_
-
+Set Error Document to _404.html_
 
 Copy the endpoint it gives you.
 In your DNS, create a new CNAME record and point it to the S3 endpoint.
@@ -36,6 +36,12 @@ Set "Redirect all requests to" to _www.joelbeckham.com_
 
 
 #2 Create new Github repo.
+
+
+In the project root, make a file called _gitignore.txt_ (we'll rename later)
+From the command line type rename gititnore.txt .gitignore
+
+
 #3 Signup for Travis
 
 #4 Install Travis CLI
@@ -99,9 +105,19 @@ Under the language section:
     
 Remove version "- '1.0'"
 
+After the go: section but before the deploy: section add:
+
+    sudo: required
+    install:
+      - go get github.com/spf13/hugo
+    script: hugo --theme="hyde" --destination="public" -v
 
     
+Also, anywhere in the deploy section add:
 
+      skip_cleanup: true
+	  
+Without this, Travis deletes everything before the deploy step and you won't be able to deploy.
 
 #6 Get Hugo and Test
 
