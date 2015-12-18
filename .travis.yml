@@ -1,6 +1,6 @@
 language: go
 go:
-  - 1.4
+- '1.3'
 sudo: required
 install:
   - go get github.com/spf13/hugo
@@ -12,6 +12,7 @@ deploy:
     secure: lWLE3EBRfptP9QYL1KuHIED2dzK+mKrFPwpulBYDzn97g6rVuxUBU5JGQqIk3UwrXkEIWE8fCqeimvG4ZADZl6s4SzaHTMifuv38lbamjoNChCLAMmRduU0KSna0+3WoLgT0Pdzy2lXsjpB2rHNAt7ZCkeJE7lkDWXxKvAUZG4i+9yxc7lBeB7ZMLbEoHTD5R+8eit2PwnxS+3g57mlLIrPKb7Loc9wdpdTVoCD8xXQiennyzzX5rTMtWNQLmW29XHnf51gbAiAyWu+ajW0TsPc45qdcSBBOdQAZn5+smZBtrEsQXCEgNaQgzgzlfMOowRQEI290+DBZayumJLyBH0IVe6VAw75f6b+14dHxdxMFj5XxtL16RlIZgpIvPwFuC0jtxVqLmXmhMDiEasiuM33mLkwHaplzpgbCG7TZpWfBsSGbLwbT4xOWomTiIZj7s7OjPL2n3Bapgf8Y4xxOR54hL4HVytbvpc3PnUTiEVW7RMsDzXwaNWOvwa/NAqiHlYcnieXlWXRrcDYHz6gD1SbHTFn1GCvTH9Vz+RSrQHdMtAo01dbMlgIHtajS77QLVP5A42ush3W/8/fK+5rub0mWj5uMElOQrh0TWaPpXXZgqYqL4rzOvCHmMJm0Uml9kMol1u8u5fNrEkhpl6qXkHqdoEW2jEQxdoVmOgEj14M=
   bucket: preview.joelbeckham.com
   local-dir: public
+  skip_cleanup: true
   acl: public_read
   on:
     repo: joelbeckham/joelbeckham.com
