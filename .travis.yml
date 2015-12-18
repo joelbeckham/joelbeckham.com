@@ -1,6 +1,7 @@
 language: go
 go:
 - '1.3'
+sudo: required
 install:
   - go get github.com/spf13/hugo
 script: hugo --theme="hyde" --destination="public" -v
