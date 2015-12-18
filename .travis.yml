@@ -2,6 +2,9 @@ language: go
 go:
 - '1.0'
 - '1.3'
+install:
+  - go get github.com/spf13/hugo
+script: echo hi
 deploy:
   provider: s3
   access_key_id: AKIAIRI7P67TRX27IPZA
