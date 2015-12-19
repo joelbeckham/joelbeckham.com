@@ -15,12 +15,12 @@ deploy:
   skip_cleanup: true
   acl: public_read
   cache_control:
-    - max-age=3600
     - max-age=2592000:
         - "fonts/Genericons.woff"
         - "js/*.js"
         - "**/*.jpg"
         - "**/*.png"
+    - max-age=3600
   on:
     repo: joelbeckham/joelbeckham.com
 
