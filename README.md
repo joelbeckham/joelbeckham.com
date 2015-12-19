@@ -4,3 +4,12 @@ This is the source for my personal blog found at www.joelbeckham.com. It's a sta
 It's deployed automatically via Travis CI at https://travis-ci.org/joelbeckham/joelbeckham.com and deployed to an S3 bucket with Static Site Hosting turned on. A CloudFront distribution sits in front of it to speed it up.
 
 [![Build Status](https://travis-ci.org/joelbeckham/joelbeckham.com.svg?branch=master)](https://travis-ci.org/joelbeckham/joelbeckham.com)
+
+
+Other tools used:
+* http://www.favicon-generator.org/
+* https://analytics.google.com
+* http://www.webpagetest.org/
+* https://developers.google.com/speed/pagespeed/insights/
+* https://app.ghostinspector.com
+* https://code.visualstudio.com/
