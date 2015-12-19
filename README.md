@@ -10,5 +10,6 @@ Other tools used:
 * http://www.favicon-generator.org/
 * https://analytics.google.com
 * http://www.webpagetest.org/
+* https://developers.google.com/speed/pagespeed/insights/
 * https://app.ghostinspector.com
 * https://code.visualstudio.com/
