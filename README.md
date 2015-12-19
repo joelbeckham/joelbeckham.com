@@ -11,3 +11,4 @@ Other tools used:
 * https://analytics.google.com
 * http://www.webpagetest.org/
 * https://app.ghostinspector.com
+* https://code.visualstudio.com/
