@@ -9,7 +9,7 @@ categories:
 ---
 I kept getting this mysterious error on only one of the TeamCity build agents. The application compiles fine everywhere else.
 
-_<font color="#a5a5a5">error CS1502: The best overloaded method match for &#8216;System.Xml.Xsl.XslCompiledTransform.Transform(System.Xml.XmlReader, System.Xml.Xsl.XsltArgumentList, System.Xml.XmlWriter, System.Xml.XmlResolver)&#8217; has some invalid arguments</font>_
+_<font color="#a5a5a5">error CS1502: The best overloaded method match for &#8216;System.Xml.Xsl.XslCompiledTransform.Transform(System.Xml.XmlReader, System.Xml.Xsl.XsltArgumentList, System.Xml.XmlWriter, System.Xml.XmlResolver)' has some invalid arguments</font>_
 
 The last line throws the error:
 
@@ -51,7 +51,7 @@ The last line throws the error:
       <!--CRLF--></div> </div> 
       
       <p>
-        That&#8217;s really strange because Visual Studio says that I&#8217;m calling a valid overload. It compiles on my machine and on our other build agent.I thought this was a clue, but installing the SDK didn&#8217;t make any difference:
+        That's really strange because Visual Studio says that I'm calling a valid overload. It compiles on my machine and on our other build agent.I thought this was a clue, but installing the SDK didn't make any difference:
       </p>
       
       <p>

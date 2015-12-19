@@ -235,7 +235,7 @@ I went down a bit of a rabbit hole because tutorials told me to modify the MvcAp
                               </p>
                               
                               <p>
-                                To specify specific contructor arguments for the binding, use .WithConstructorArguments("<argument>”, <value>");
+                                To specify specific contructor arguments for the binding, use .WithConstructorArguments("<argument>&quot;, <value>");
                               </p>
                               
                               <div id="codeSnippetWrapper">

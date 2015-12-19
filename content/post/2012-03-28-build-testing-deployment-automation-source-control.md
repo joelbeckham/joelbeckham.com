@@ -10,13 +10,13 @@ categories:
 tags:
   - SVN
 ---
-Here&#8217;s an old post I just found that I had started a long time ago but apparently never finished. Posting as is&#8230;
+Here's an old post I just found that I had started a long time ago but apparently never finished. Posting as is&#8230;
 
 &nbsp;
 
 We use SVN for our versioning, and TortoiseSVN on the client.
 
-Since there is only one person working on the project, we&#8217;ve opted for a simple version control strategy. We use a simplified <a href="http://blogs.collab.net/subversion/2007/11/branching-strat/" target="_blank">stable trunk</a> strategy and release from /trunk. The goal is to keep /trunk releasable at any given moment. All development is done against a long-lived branch: /branches/_dev. When a feature is done (tested, documented, etc), it is merged to /trunk. Here is the complete process with each piece explained below:
+Since there is only one person working on the project, we've opted for a simple version control strategy. We use a simplified <a href="http://blogs.collab.net/subversion/2007/11/branching-strat/" target="_blank">stable trunk</a> strategy and release from /trunk. The goal is to keep /trunk releasable at any given moment. All development is done against a long-lived branch: /branches/_dev. When a feature is done (tested, documented, etc), it is merged to /trunk. Here is the complete process with each piece explained below:
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="svn-process" src="http://i2.wp.com/www.joelbeckham.com/wp-content/uploads/2012/03/svn-process_thumb.png?resize=694%2C324" alt="svn-process" border="0" data-recalc-dims="1" />][1]
 
@@ -34,7 +34,7 @@ When a feature is done, it is merged into the trunk
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="devmergedtotrunk" src="http://i0.wp.com/www.joelbeckham.com/wp-content/uploads/2012/03/devmergedtotrunk_thumb.png?resize=225%2C135" alt="devmergedtotrunk" border="0" data-recalc-dims="1" />][3]
 
-If a feature is partially completed and a different story or bugfix needs to be worked on, the partially completed feature is shelved to a branch (/branches/<username>-<story number>. Once the other work has been completed and checked in, the shelved branch is merged back in with the developer&#8217;s working copy of the development branch.
+If a feature is partially completed and a different story or bugfix needs to be worked on, the partially completed feature is shelved to a branch (/branches/<username>-<story number>. Once the other work has been completed and checked in, the shelved branch is merged back in with the developer's working copy of the development branch.
 
 &nbsp;
 
@@ -48,7 +48,7 @@ When we are ready to release, we the latest revision in /trunk and tag it.
 
 &nbsp;
 
-If we find a bug in production that must be fixed immediately, we create a new branch from the last release tag (which means that we&#8217;re branching what we&#8217;re currently running in production) and call it /branches/hotfix-<hotfix story #>. We deploy to staging from the hotfix branch to verify that the hotfix worked, and then deploy to production from the hotfix branch. Once everything is confirmed to be working, the hotfix branch is tagged then removed.
+If we find a bug in production that must be fixed immediately, we create a new branch from the last release tag (which means that we're branching what we're currently running in production) and call it /branches/hotfix-<hotfix story #>. We deploy to staging from the hotfix branch to verify that the hotfix worked, and then deploy to production from the hotfix branch. Once everything is confirmed to be working, the hotfix branch is tagged then removed.
 
 &nbsp;
 

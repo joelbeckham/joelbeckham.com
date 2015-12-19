@@ -11,7 +11,7 @@ Checklists / Guides
 
   1. <a href="http://webaim.org/standards/wcag/checklist" target="_blank">WCAG 2.0 Checklist</a>
   2. <a href="http://webaim.org/standards/508/checklist" target="_blank">Section 508 Checklist</a>
-  3. <a href="http://accessibility.psu.edu/section508" target="_blank">Penn State&#8217;s Accessibility and Usability Guide</a>
+  3. <a href="http://accessibility.psu.edu/section508" target="_blank">Penn State's Accessibility and Usability Guide</a>
   4. <a href="http://www.jimthatcher.com/sidebyside.htm" target="_blank">Side by Side WCAG vs 508</a>
 
 Tools:

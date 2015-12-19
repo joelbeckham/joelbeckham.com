@@ -7,7 +7,7 @@ url: /2012/04/omniture-api-pulling-campaign-tracking-code-click-throughs-program
 categories:
   - Dev
 ---
-This is the process I used to pull campaign tracking code click throughs programatically through the Omniture Reporting API. While you can start with code, I found it to be much more productive to use Omniture&#8217;s <a href="https://developer.omniture.com/en_US/get-started/api-explorer" target="_blank">API Explorer</a> to figure out exactly what I wanted first. The API Explorer is nice because it shows you the available methods  with their parameters and gives you immediate feedback as to whether it worked or not. The first section below goes through the API Explorer. The second half contains the code I wrote and is specific to C# and Visual Studio 2010.
+This is the process I used to pull campaign tracking code click throughs programatically through the Omniture Reporting API. While you can start with code, I found it to be much more productive to use Omniture's <a href="https://developer.omniture.com/en_US/get-started/api-explorer" target="_blank">API Explorer</a> to figure out exactly what I wanted first. The API Explorer is nice because it shows you the available methods  with their parameters and gives you immediate feedback as to whether it worked or not. The first section below goes through the API Explorer. The second half contains the code I wrote and is specific to C# and Visual Studio 2010.
 
 &nbsp;
 
@@ -22,19 +22,19 @@ First, you need <a href="https://developer.omniture.com/en_US/content_page/enter
 
 ## API Explorer
 
-You&#8217;ll want to verify that your username and shared secret actually work. The best way to do that is with the <a href="https://developer.omniture.com/en_US/get-started/api-explorer" target="_blank">API Explorer</a>. Enter your username and shared secret in the first section.
+You'll want to verify that your username and shared secret actually work. The best way to do that is with the <a href="https://developer.omniture.com/en_US/get-started/api-explorer" target="_blank">API Explorer</a>. Enter your username and shared secret in the first section.
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="2012-04-10_142911" src="http://i1.wp.com/www.joelbeckham.com/wp-content/uploads/2012/04/2012-04-10_142911_thumb1.png?resize=293%2C129" alt="2012-04-10_142911" border="0" data-recalc-dims="1" />][1]
 
-In the next section, choose &#8220;Company&#8221; for the API and &#8220;GetTokenCount&#8221; for the Method. This is a great Method to start with because it doesn&#8217;t require any parameters. Click &#8220;Get Response&#8221;.
+In the next section, choose &quot;Company&quot; for the API and &quot;GetTokenCount&quot; for the Method. This is a great Method to start with because it doesn't require any parameters. Click &quot;Get Response&quot;.
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="2012-04-10_143825" src="http://i1.wp.com/www.joelbeckham.com/wp-content/uploads/2012/04/2012-04-10_143825_thumb.png?resize=581%2C473" alt="2012-04-10_143825" border="0" data-recalc-dims="1" />][2]
 
-The response shows up in a box below. If there are any problems, the error will appear here. If all is well, you&#8217;ll see the data you requested. In this case, we asked for the Token Count and got back 9978. Omniture gives you an allotment of API tokens. Each call you make (regardless of the response size) consumes 1 token.
+The response shows up in a box below. If there are any problems, the error will appear here. If all is well, you'll see the data you requested. In this case, we asked for the Token Count and got back 9978. Omniture gives you an allotment of API tokens. Each call you make (regardless of the response size) consumes 1 token.
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="2012-04-10_143320" src="http://i2.wp.com/www.joelbeckham.com/wp-content/uploads/2012/04/2012-04-10_143320_thumb.png?resize=575%2C97" alt="2012-04-10_143320" border="0" data-recalc-dims="1" />][3]
 
-Now that we know that we can successfully access the API, the next step is figuring out the API calls you want to use and the parameters that they take. In my case, I wanted to get a Ranked Report containing the number of Click-throughs for each Campaign Tracking Code. The <a href="https://developer.omniture.com/en_US/documentation/sitecatalyst-reporting/c-overview-6" target="_blank">Report API documentation</a> explains most of the parameter fields and options. I selected &#8220;Report&#8221; for the API, and &#8220;GetRankedReport&#8221; for the Method. This populates the parameter section with a template for all possible options (it can be a bit overwhelming, but fortunately, you don&#8217;t need most of it most of the time).
+Now that we know that we can successfully access the API, the next step is figuring out the API calls you want to use and the parameters that they take. In my case, I wanted to get a Ranked Report containing the number of Click-throughs for each Campaign Tracking Code. The <a href="https://developer.omniture.com/en_US/documentation/sitecatalyst-reporting/c-overview-6" target="_blank">Report API documentation</a> explains most of the parameter fields and options. I selected &quot;Report&quot; for the API, and &quot;GetRankedReport&quot; for the Method. This populates the parameter section with a template for all possible options (it can be a bit overwhelming, but fortunately, you don't need most of it most of the time).
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="2012-04-10_144729" src="http://i2.wp.com/www.joelbeckham.com/wp-content/uploads/2012/04/2012-04-10_144729_thumb.png?resize=572%2C435" alt="2012-04-10_144729" border="0" data-recalc-dims="1" />][4]
 
@@ -46,13 +46,13 @@ Which results in this response:
   
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="2012-04-10_150038" src="http://i2.wp.com/www.joelbeckham.com/wp-content/uploads/2012/04/2012-04-10_150038_thumb.png?resize=582%2C375" alt="2012-04-10_150038" border="0" data-recalc-dims="1" />][6]
 
-Once you figure out how to pull the data you need through the API explorer, it&#8217;s time to move on to the code.
+Once you figure out how to pull the data you need through the API explorer, it's time to move on to the code.
 
 &nbsp;
 
 ## The Code (Visual Studio 2010 specific)
 
-Omniture has created guides for a number of different platforms. You can search for them on the <a href="https://developer.omniture.com/" target="_blank">Omniture Developer Connection</a>. In my case, I&#8217;m building the project in Visual Studio 2010, which has a <a href="https://developer.omniture.com/en_US/blog/getting-started-with-the-omniture-apis-using-visual-studio-2010-wcf" target="_blank">guide</a> and some <a href="https://developer.omniture.com/en_US/gallery/using-the-apis-with-wcf-dlls" target="_blank">libraries</a> that Omniture created. I followed steps 1-4 of the guide to get started as they are. Their API client class follows the request structure you used in the API Explorer pretty closely. You need to create a _reportDescription_ object within which you will put the parameters you need.
+Omniture has created guides for a number of different platforms. You can search for them on the <a href="https://developer.omniture.com/" target="_blank">Omniture Developer Connection</a>. In my case, I'm building the project in Visual Studio 2010, which has a <a href="https://developer.omniture.com/en_US/blog/getting-started-with-the-omniture-apis-using-visual-studio-2010-wcf" target="_blank">guide</a> and some <a href="https://developer.omniture.com/en_US/gallery/using-the-apis-with-wcf-dlls" target="_blank">libraries</a> that Omniture created. I followed steps 1-4 of the guide to get started as they are. Their API client class follows the request structure you used in the API Explorer pretty closely. You need to create a _reportDescription_ object within which you will put the parameters you need.
 
 I decided to create an Extension method to populate the _reportDescription_ object for me. Here it is:
 
@@ -88,9 +88,9 @@ I decided to create an Extension method to populate the _reportDescription_ obje
 
 &nbsp;
 
-Note that the _reportDescription_ object is created outside of this method and is passed in. I&#8217;ve both hardcoded some of the values and passed in others as arguments. I ended up adding in a few extra parameters that I didn&#8217;t have in the API Explorer example above: I added a search and split the results into pages (_top_ & _startWith_). Note how the values and structure here are pretty close to what we had in the API Explorer.
+Note that the _reportDescription_ object is created outside of this method and is passed in. I've both hardcoded some of the values and passed in others as arguments. I ended up adding in a few extra parameters that I didn't have in the API Explorer example above: I added a search and split the results into pages (_top_ & _startWith_). Note how the values and structure here are pretty close to what we had in the API Explorer.
 
-Here is the client I created to pull down the report and convert it to my own reporting format. I&#8217;ll break each section down below.
+Here is the client I created to pull down the report and convert it to my own reporting format. I'll break each section down below.
 
 <pre class="lang:c# decode:true">public class SiteCatalystClient
 {
@@ -142,7 +142,7 @@ Here is the client I created to pull down the report and convert it to my own re
 
 &nbsp;
   
-Let&#8217;s break this down. The constructor takes the API _url_ ([https://api.omniture.com/admin/1.3/][7]), _username_ (the combined username from above), and _password_ (shared secret). I also set _top_ to the number of records I want to fetch each time.
+Let's break this down. The constructor takes the API _url_ ([https://api.omniture.com/admin/1.3/][7]), _username_ (the combined username from above), and _password_ (shared secret). I also set _top_ to the number of records I want to fetch each time.
 
 <div id="codeSnippetWrapper">
   <pre class="lang:default decode:true">public SiteCatalystClient(string url, string username, string password)
@@ -202,7 +202,7 @@ var executionCount = 0;</pre>
 
 &nbsp;
 
-We go into a do while loop. Our result set is paged, so each time through the loop pulls the next range of data. I have it limited to 10 loops though because I don&#8217;t want this report to run for too long.
+We go into a do while loop. Our result set is paged, so each time through the loop pulls the next range of data. I have it limited to 10 loops though because I don't want this report to run for too long.
 
 <pre class="lang:default decode:true">do
 {
@@ -251,7 +251,7 @@ The _reportResponse_ object contains a property called _report_ which contains a
 </div>
 
 <div>
-  The last little bit is to increment the record we&#8217;ll start with next time and break out of the loop if we&#8217;re at the end of the result set.
+  The last little bit is to increment the record we'll start with next time and break out of the loop if we're at the end of the result set.
 </div>
 
 <div>

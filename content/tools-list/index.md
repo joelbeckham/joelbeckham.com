@@ -420,7 +420,7 @@ HTML / CSS / Fonts / Etc
       <a href="http://wiki.sharpdevelop.net/ILSpy.ashx">ILSpy </a>- Open-source .NET assembly browser and decompiler
     </li>
     <li>
-      <a href="http://visualstudiogallery.msdn.microsoft.com/df3f0c30-3d37-4e06-9ef8-3bff3508be31">Power Commands</a> &#8211; Adds things like collapse all nodes in solution explorer and &#8220;Remove and Sort&#8221; usings for entire solutions and projects.
+      <a href="http://visualstudiogallery.msdn.microsoft.com/df3f0c30-3d37-4e06-9ef8-3bff3508be31">Power Commands</a> &#8211; Adds things like collapse all nodes in solution explorer and &quot;Remove and Sort&quot; usings for entire solutions and projects.
     </li>
     <li>
       <a href="http://www.ncrunch.net/">nCrunch </a>- Continuous test runner. Displays code coverage and test pass / fail inline with your code.

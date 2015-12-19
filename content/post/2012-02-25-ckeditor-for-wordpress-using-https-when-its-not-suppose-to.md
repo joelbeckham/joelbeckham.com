@@ -1,5 +1,5 @@
 ---
-title: 'CKEditor for WordPress using HTTPS when it&#8217;s not suppose to'
+title: 'CKEditor for WordPress using HTTPS when it's not suppose to'
 author: jbeckham
 layout: post
 date: 2012-02-25
@@ -9,7 +9,7 @@ categories:
 tags:
   - Wordpress
 ---
-I&#8217;m runnin WordPress on IIS. The latest version of CKEditor for WordPress seems to have an issue where I&#8217;m accessing the admin area with HTTP, but all the urls it generates (images, js files, etc) are being requested through HTTPS. I noticed it because I don&#8217;t have HTTPS bound to my site at the moment and all of the CKEditor assets couldn&#8217;t be found.
+I'm runnin WordPress on IIS. The latest version of CKEditor for WordPress seems to have an issue where I'm accessing the admin area with HTTP, but all the urls it generates (images, js files, etc) are being requested through HTTPS. I noticed it because I don't have HTTPS bound to my site at the moment and all of the CKEditor assets couldn't be found.
 
 Digging in a bit, I found these lines in ckeditor_class.php:
 
@@ -20,7 +20,7 @@ Digging in a bit, I found these lines in ckeditor_class.php:
     </div> 
     
     <p>
-      I found that $_SERVER['HTTPS'] was set to &#8216;off&#8217;, which would still cause the if statement to be true. Weird.
+      I found that $_SERVER['HTTPS'] was set to &#8216;off', which would still cause the if statement to be true. Weird.
     </p>
     
     <p>
@@ -34,5 +34,5 @@ Digging in a bit, I found these lines in ckeditor_class.php:
         </div> 
         
         <p>
-          This fixed the problem. I don&#8217;t know enough about PHP to know if some environments set $_SERVER['HTTPS'] to true/false which would allow the original code to work, or if this is a bug in all environments.
+          This fixed the problem. I don't know enough about PHP to know if some environments set $_SERVER['HTTPS'] to true/false which would allow the original code to work, or if this is a bug in all environments.
         </p>

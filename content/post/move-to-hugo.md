@@ -36,11 +36,11 @@ Set "Redirect all requests to" to _www.joelbeckham.com_
 
 
 #2 Create new Github repo.
-
-
 In the project root, make a file called _gitignore.txt_ (we'll rename later)
 From the command line type rename gititnore.txt .gitignore
+Inside should be:
 
+    public
 
 #3 Signup for Travis
 
@@ -126,7 +126,25 @@ Without this, Travis deletes everything before the deploy step and you won't be 
 Install hugo exporter
 
 
+#8 CloudFront
+Create Distribution
+Under Web click Get Started
 
+For _Origin Domain Name_ I picked www.joelbeckham.com.s3.amazonaws.com (my bucket)
+Left everything else as default, except for:
+
+* **Compress Object Automatically**: Yes
+* **Alternate Domain Names**: www.joelbeckham.com
+* **Default Root Object**: index.html
+
+Click _Create Distribution_ to set it all up.
+
+On the next screen, grab the _Domain Name_.
+
+Back to DNS settings, I modified my _www_ CNAME to point to the domain name CloudFront just provided.
+
+
+ 
 
 # Documentation
 * Travis S3: https://docs.travis-ci.com/user/deployment/s3
@@ -134,5 +152,4 @@ Install hugo exporter
 
 
 # TODO
-.gitignore public
 Remove public from github

@@ -11,9 +11,9 @@ tags:
 ---
 Here are the [queries][1] to view the char and nchar character set settings:
 
-select value from nls\_database\_parameters where parameter = &#8216;NLS_CHARACTERSET&#8217;;
+select value from nls\_database\_parameters where parameter = &#8216;NLS_CHARACTERSET';
 
-select value from nls\_database\_parameters where parameter = &#8216;NLS\_NCHAR\_CHARACTERSET&#8217;;
+select value from nls\_database\_parameters where parameter = &#8216;NLS\_NCHAR\_CHARACTERSET';
 
 These return AL32UTF8 for me, which apparently supersedes UTF8 (which is an older setting in Oracle for an older unicode specification which is missing some XML specific characters).
 

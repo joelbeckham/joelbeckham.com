@@ -39,7 +39,7 @@ I always thought the best practice for using a WCF Proxy, which implements the I
       </p>
       
       <p>
-        Apparently this is not how it should be done (Microsoft&#8217;s "<a href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">Avoiding Problems with the Using Statement</a>") because the implicit call to Dispose, which calls Close(),&#160; can throw exceptions if there are network errors which can result in unexpected behavior:
+        Apparently this is not how it should be done (Microsoft's "<a href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">Avoiding Problems with the Using Statement</a>") because the implicit call to Dispose, which calls Close(),&#160; can throw exceptions if there are network errors which can result in unexpected behavior:
       </p>
       
       <div id="codeSnippetWrapper">

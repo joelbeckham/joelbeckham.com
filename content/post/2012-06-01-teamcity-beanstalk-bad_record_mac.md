@@ -14,7 +14,7 @@ I started getting __bad\_record\_mac__ errors when TeamCity would try to connec
 
   * From command prompt, run
   * c:teamcitybintomcat7w.exe //ES//TeamCity
-  * Click the &#8220;Java&#8221; tab
+  * Click the &quot;Java&quot; tab
   * Add the following to Java Options:
   * -Dsvnkit.http.sslProtocols=SSLv3
   * Restart the teamcity service

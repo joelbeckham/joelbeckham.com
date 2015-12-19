@@ -7,14 +7,14 @@ url: /2011/09/copy-pasting-text-into-the-android-emulator/
 categories:
   - Dev
 ---
-I usually send the text I want to copy as an sms message through telnet and then copy the text from the sms message. Here&#8217;s how:
+I usually send the text I want to copy as an sms message through telnet and then copy the text from the sms message. Here's how:
 
 Connect through telnet:
 
   * **Syntax:** `telnet localhost <port>`
   * **Example:** `telnet localhost 5554`
 
-_(5554 is the default port. The title bar of the emulator shows the port that is being used, so you can see if it&#8217;s different)._
+_(5554 is the default port. The title bar of the emulator shows the port that is being used, so you can see if it's different)._
 
 Send message:
 

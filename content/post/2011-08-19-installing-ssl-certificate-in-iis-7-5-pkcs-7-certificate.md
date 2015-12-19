@@ -31,7 +31,7 @@ tags:
   </p>
   
   <p>
-    You may receive this error, “Cannot find the certificate request that is associated with this certificate file.”
+    You may receive this error, &quot;Cannot find the certificate request that is associated with this certificate file.&quot;
   </p>
   
   <p>
@@ -67,7 +67,7 @@ tags:
   </p>
   
   <p>
-    Select “Automatically select a certificate store”
+    Select &quot;Automatically select a certificate store&quot;
   </p>
   
   <p>
@@ -91,7 +91,7 @@ tags:
   </p>
   
   <p>
-    Export as “DER encoded binary X.509 (.CER).”
+    Export as &quot;DER encoded binary X.509 (.CER).&quot;
   </p>
   
   <p>

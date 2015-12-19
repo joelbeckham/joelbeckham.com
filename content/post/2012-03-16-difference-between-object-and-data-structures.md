@@ -7,7 +7,7 @@ url: /2012/03/difference-between-object-and-data-structures/
 categories:
   - Dev
 ---
-I&#8217;ve been reading Clean Code by Robert C. Martin and really appreciated how he described the distinctions between objects and data structures:
+I've been reading Clean Code by Robert C. Martin and really appreciated how he described the distinctions between objects and data structures:
 
 > "**Objects** hide their data behind abstractions and expose functions that operate on that data. **Data structures** expose their data and have no meaningful functions."
 

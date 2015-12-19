@@ -25,14 +25,14 @@ categories:
 ### Break only if another breakpoint has been hit:
 
 <div>
-  I&#8217;ve found this really handy for functions that get called a lot, but I only want it to suspend when it&#8217;s been called from a specific place. This is great, for example, if I want to only break on a line after it&#8217;s been called by a specific test. Here&#8217;s how:
+  I've found this really handy for functions that get called a lot, but I only want it to suspend when it's been called from a specific place. This is great, for example, if I want to only break on a line after it's been called by a specific test. Here's how:
 </div>
 
 <div>
 </div>
 
 <div>
-  1. Set a breakpoint in the unit test. Right click -> Edit -> Uncheck &#8216;Suspend&#8217; (because I don&#8217;t actually want it to stop here)
+  1. Set a breakpoint in the unit test. Right click -> Edit -> Uncheck &#8216;Suspend' (because I don't actually want it to stop here)
 </div>
 
 <div>
@@ -46,7 +46,7 @@ categories:
 </div>
 
 <div>
-  2. Set a breakpoint on the line I actually want to suspend on. Right click -> Edit -> Uncheck &#8216;Suspend&#8217;, Select the breakpoint from step #1 in the &#8220;Disabled until selected breakpoint is hit&#8221;. If you have so many breakpoints that its hard to find the one you want, see the last tip below.
+  2. Set a breakpoint on the line I actually want to suspend on. Right click -> Edit -> Uncheck &#8216;Suspend', Select the breakpoint from step #1 in the &quot;Disabled until selected breakpoint is hit&quot;. If you have so many breakpoints that its hard to find the one you want, see the last tip below.
 </div>
 
 <div>
@@ -68,7 +68,7 @@ categories:
       Ctrl + Shift + F8
     </li>
     <li>
-      Right Click on a Breakpoint and click &#8220;View Breakpoints&#8221;
+      Right Click on a Breakpoint and click &quot;View Breakpoints&quot;
     </li>
     <li>
       Menu: Run ->View Breakpoints

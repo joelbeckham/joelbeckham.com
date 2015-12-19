@@ -160,7 +160,7 @@ Here is a simple example of the PageObject pattern:
       </p>
       
       <p>
-        Note that the constructor validates that we&#8217;re on the right page. Now if you want to check that the expected language is selected, you can write this in your test:
+        Note that the constructor validates that we're on the right page. Now if you want to check that the expected language is selected, you can write this in your test:
       </p>
       
       <div id="codeSnippetWrapper">
@@ -522,6 +522,6 @@ Here is a simple example of the PageObject pattern:
                                                     When linking from one page to the next, return a page class.
                                                   </li>
                                                   <li>
-                                                    Elements using the FindsBy attribute are looked up each time the property is accessed. If it&#8217;s an element that doesn&#8217;t change, this can be optimized by applying the [CacheLookup] attribute to the property.
+                                                    Elements using the FindsBy attribute are looked up each time the property is accessed. If it's an element that doesn't change, this can be optimized by applying the [CacheLookup] attribute to the property.
                                                   </li>
                                                 </ul>

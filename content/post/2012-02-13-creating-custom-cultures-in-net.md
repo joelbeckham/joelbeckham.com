@@ -136,7 +136,7 @@ Here is a crude proof of concept:
             </p>
             
             <p>
-              Here&#8217;s what the documentation says about naming (cultureName) a new custom culture:
+              Here's what the documentation says about naming (cultureName) a new custom culture:
             </p>
             
             <blockquote>

@@ -9,7 +9,7 @@ categories:
 tags:
   - jQuery
 ---
-One of my pages gets a “Stop running this script? A script on this page is causing Internet Explorer to run slowly. If it continues to run, your computer might become unresponsive.”
+One of my pages gets a &quot;Stop running this script? A script on this page is causing Internet Explorer to run slowly. If it continues to run, your computer might become unresponsive.&quot;
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="ie_slow_script_error" border="0" alt="ie_slow_script_error" src="http://i0.wp.com/www.joelbeckham.com/wp-content/uploads/2011/09/ie_slow_script_error_thumb.png?resize=336%2C153" data-recalc-dims="1" />][1]
 

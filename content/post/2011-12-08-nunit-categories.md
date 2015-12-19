@@ -9,9 +9,9 @@ categories:
 tags:
   - Testing
 ---
-Sometimes I want to only run a portion of my tests. nUnit allows tests to be labeled with Categories and then selectively choose which categories you want to run. I have found this especially helpful on TeamCity for integration tests because I don&#8217;t have all the infrastructure set up to successfully execute all of my tests. I have created a Category called "Always" and marked the tests that can run on TeamCity with this category.
+Sometimes I want to only run a portion of my tests. nUnit allows tests to be labeled with Categories and then selectively choose which categories you want to run. I have found this especially helpful on TeamCity for integration tests because I don't have all the infrastructure set up to successfully execute all of my tests. I have created a Category called "Always" and marked the tests that can run on TeamCity with this category.
 
-Here&#8217;s how to categorize tests. There is a Category Attribute that can be added on the Test level:
+Here's how to categorize tests. There is a Category Attribute that can be added on the Test level:
 
 <div id="codeSnippetWrapper">
   <div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; background-color: #f4f4f4; border-left-style: none; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; border-right-style: none; font-size: 8pt; overflow: visible; padding-top: 0px" id="codeSnippet">
@@ -96,7 +96,7 @@ Here&#8217;s how to categorize tests. There is a Category Attribute that can be 
                   </p>
                   
                   <p>
-                    Now all tests that aren&#8217;t in the selected category are grayed out and do not run:
+                    Now all tests that aren't in the selected category are grayed out and do not run:
                   </p>
                   
                   <p>

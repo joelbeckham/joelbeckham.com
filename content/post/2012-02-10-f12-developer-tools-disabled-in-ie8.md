@@ -9,12 +9,12 @@ categories:
 tags:
   - IE
 ---
-For some reason I couldn&#8217;t pull the up the F12 Developer tools in IE8. The menu item was grayed out. Here&#8217;s how I got them back:
+For some reason I couldn't pull the up the F12 Developer tools in IE8. The menu item was grayed out. Here's how I got them back:
 
   1. Start up gpedit.msc
   2. Go to **_Computer Configuration_** -> **_Administrative Templates_** -> **_Windows Components_** -> **_Internet Explorer_** -> **_Toolbars_**
   3. Right click on **_Turn off Developer Tools_** -> **_Edit_**
-  4. I set it **_Disabled_**. You could try enabling then disabling it if just disabling it doesn&#8217;t work.
+  4. I set it **_Disabled_**. You could try enabling then disabling it if just disabling it doesn't work.
 
 &#160;
 
