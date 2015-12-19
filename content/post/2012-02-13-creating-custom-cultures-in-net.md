@@ -11,7 +11,7 @@ tags:
 ---
 Our application receives a culture name (e.g. en-US, de-DE, ja-JP) as user input and in response returns customized content. The problem is that there is a specific use case for Japanese (ja-JP) in which the content needs to be different than the other Japanese use cases. We want to leave all the other use cases alone.
 
-We have chosen to solve this is by creating a new culture to represent the this special case &#8211; <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureandregioninfobuilder.cultureandregioninfobuilder.aspx" target="_blank">CultureAndRegionInfoBuilder</a> does exactly that.
+We have chosen to solve this is by creating a new culture to represent the this special case - <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureandregioninfobuilder.cultureandregioninfobuilder.aspx" target="_blank">CultureAndRegionInfoBuilder</a> does exactly that.
 
 Here is a crude proof of concept:
 

@@ -60,7 +60,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   * [Dev
 
   * <a href="http://www.vagrantup.com/" target="_blank">Vagrant</a> - Super slick virtualized development environment control
@@ -105,7 +105,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   *][7] - Online html, javascript, and css editor and tester
   * [RegExr][8] - Online Regex tester
 
@@ -155,7 +155,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   * [Dev
 
   * <a href="http://www.vagrantup.com/" target="_blank">Vagrant</a> - Super slick virtualized development environment control
@@ -200,7 +200,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   *][7] - Online html, javascript, and css editor and tester
   * [RegExr][8] - Online Regex tester
 
@@ -254,7 +254,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   * [Dev
 
   * <a href="http://www.vagrantup.com/" target="_blank">Vagrant</a> - Super slick virtualized development environment control
@@ -299,7 +299,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   *][7] - Online html, javascript, and css editor and tester
   * [RegExr][8] - Online Regex tester
 
@@ -349,7 +349,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   * [Dev
 
   * <a href="http://www.vagrantup.com/" target="_blank">Vagrant</a> - Super slick virtualized development environment control
@@ -394,7 +394,7 @@ Online tools:
 
   * [Ideone][4] - Online code snippet compiler
   * [Quick Diff][5] - Online diff
-  * [Pretty Diff][6] &#8211; Online diff
+  * [Pretty Diff][6] - Online diff
   *][7] - Online html, javascript, and css editor and tester
   * [RegExr][8] - Online Regex tester
 
@@ -420,16 +420,16 @@ HTML / CSS / Fonts / Etc
       <a href="http://wiki.sharpdevelop.net/ILSpy.ashx">ILSpy </a>- Open-source .NET assembly browser and decompiler
     </li>
     <li>
-      <a href="http://visualstudiogallery.msdn.microsoft.com/df3f0c30-3d37-4e06-9ef8-3bff3508be31">Power Commands</a> &#8211; Adds things like collapse all nodes in solution explorer and &quot;Remove and Sort&quot; usings for entire solutions and projects.
+      <a href="http://visualstudiogallery.msdn.microsoft.com/df3f0c30-3d37-4e06-9ef8-3bff3508be31">Power Commands</a> - Adds things like collapse all nodes in solution explorer and &quot;Remove and Sort&quot; usings for entire solutions and projects.
     </li>
     <li>
       <a href="http://www.ncrunch.net/">nCrunch </a>- Continuous test runner. Displays code coverage and test pass / fail inline with your code.
     </li>
     <li>
-      <a href="http://www.mindscapehq.com/products/web-workbench">Web Workbench</a> &#8211; Sass, LESS, Coffeescript syntax highlighting and compilation.
+      <a href="http://www.mindscapehq.com/products/web-workbench">Web Workbench</a> - Sass, LESS, Coffeescript syntax highlighting and compilation.
     </li>
     <li>
-      <a href="http://www.testdriven.net/">TestDriven.Net</a> &#8211; Makes running / debugging individual unit tests super easy.
+      <a href="http://www.testdriven.net/">TestDriven.Net</a> - Makes running / debugging individual unit tests super easy.
     </li>
     <li>
       <a href="http://www.iis.net/download/WebDeploy">MSDeploy</a>

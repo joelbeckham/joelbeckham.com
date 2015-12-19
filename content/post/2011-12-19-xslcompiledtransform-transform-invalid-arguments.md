@@ -9,7 +9,7 @@ categories:
 ---
 I kept getting this mysterious error on only one of the TeamCity build agents. The application compiles fine everywhere else.
 
-_<font color="#a5a5a5">error CS1502: The best overloaded method match for &#8216;System.Xml.Xsl.XslCompiledTransform.Transform(System.Xml.XmlReader, System.Xml.Xsl.XsltArgumentList, System.Xml.XmlWriter, System.Xml.XmlResolver)' has some invalid arguments</font>_
+_<font color="#a5a5a5">error CS1502: The best overloaded method match for 'System.Xml.Xsl.XslCompiledTransform.Transform(System.Xml.XmlReader, System.Xml.Xsl.XsltArgumentList, System.Xml.XmlWriter, System.Xml.XmlResolver)' has some invalid arguments</font>_
 
 The last line throws the error:
 

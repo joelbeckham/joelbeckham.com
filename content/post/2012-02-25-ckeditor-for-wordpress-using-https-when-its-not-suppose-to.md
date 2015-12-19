@@ -20,7 +20,7 @@ Digging in a bit, I found these lines in ckeditor_class.php:
     </div> 
     
     <p>
-      I found that $_SERVER['HTTPS'] was set to &#8216;off', which would still cause the if statement to be true. Weird.
+      I found that $_SERVER['HTTPS'] was set to 'off', which would still cause the if statement to be true. Weird.
     </p>
     
     <p>

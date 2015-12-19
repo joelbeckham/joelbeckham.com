@@ -1,5 +1,5 @@
 ---
-title: 'PHPStorm Tip &#8211; Conditional Breakpoints'
+title: 'PHPStorm Tip - Conditional Breakpoints'
 author: jbeckham
 layout: post
 date: 2013-08-21
@@ -32,7 +32,7 @@ categories:
 </div>
 
 <div>
-  1. Set a breakpoint in the unit test. Right click -> Edit -> Uncheck &#8216;Suspend' (because I don't actually want it to stop here)
+  1. Set a breakpoint in the unit test. Right click -> Edit -> Uncheck 'Suspend' (because I don't actually want it to stop here)
 </div>
 
 <div>
@@ -46,7 +46,7 @@ categories:
 </div>
 
 <div>
-  2. Set a breakpoint on the line I actually want to suspend on. Right click -> Edit -> Uncheck &#8216;Suspend', Select the breakpoint from step #1 in the &quot;Disabled until selected breakpoint is hit&quot;. If you have so many breakpoints that its hard to find the one you want, see the last tip below.
+  2. Set a breakpoint on the line I actually want to suspend on. Right click -> Edit -> Uncheck 'Suspend', Select the breakpoint from step #1 in the &quot;Disabled until selected breakpoint is hit&quot;. If you have so many breakpoints that its hard to find the one you want, see the last tip below.
 </div>
 
 <div>
