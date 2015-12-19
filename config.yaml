@@ -7,7 +7,7 @@ Copyright: © 2016
 
 params:
   description: stuff I'm thinking about
-  cover: images/denali.jpg
+  cover: images/denali-header.jpg
   bio: my bio
   googleAnalyticsUserID: UA-25230119-1
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
