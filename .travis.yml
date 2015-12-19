@@ -14,7 +14,7 @@ deploy:
   local-dir: public
   skip_cleanup: true
   acl: public_read
-  cache_control: "max-age=300"
+  cache_control: "max-age=3600"
   storage_class: "REDUCED_REDUNDANCY"
   on:
     repo: joelbeckham/joelbeckham.com
