@@ -1,5 +1,5 @@
 ---
-title: 'Triggering xdebug from PHPStorm&#8217;s REST client'
+title: "Triggering xdebug from PHPStorm's REST client"
 author: jbeckham
 layout: post
 date: 2014-01-09
@@ -9,7 +9,7 @@ cudazi_post_settings:
 categories:
   - PHP
 ---
-If you want to trigger and xdebug session from PHPStorm&#8217;s REST client (or anywhere else for that matter), you can set the debug cookie manually. Add a new Request header:
+If you want to trigger and xdebug session from PHPStorm's REST client (or anywhere else for that matter), you can set the debug cookie manually. Add a new Request header:
 
   * Name: Cookie
   * Value: XDEBUG_SESSION=PHPSTORM
