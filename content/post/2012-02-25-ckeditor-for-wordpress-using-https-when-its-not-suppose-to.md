@@ -1,5 +1,5 @@
 ---
-title: 'CKEditor for WordPress using HTTPS when it's not suppose to'
+title: CKEditor for WordPress using HTTPS when it's not suppose to
 author: jbeckham
 layout: post
 date: 2012-02-25
