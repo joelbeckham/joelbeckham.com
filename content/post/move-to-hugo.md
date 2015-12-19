@@ -116,6 +116,7 @@ After the go: section but before the deploy: section add:
 Also, anywhere in the deploy section add:
 
       skip_cleanup: true
+      cache_control: "max-age=300"
 	  
 Without this, Travis deletes everything before the deploy step and you won't be able to deploy.
 
@@ -130,7 +131,8 @@ Install hugo exporter
 Create Distribution
 Under Web click Get Started
 
-For _Origin Domain Name_ I picked www.joelbeckham.com.s3.amazonaws.com (my bucket)
+For _Origin Domain Name_ don't pick the S3 bucket, use the S3 static hosting endpoint. The reason is that then the index and error documents you've specified in S3 will work correctly. It seems that while CloudFront does let you customize the error document, it doesn't let you set a default document for subfolders.
+ 
 Left everything else as default, except for:
 
 * **Compress Object Automatically**: Yes
