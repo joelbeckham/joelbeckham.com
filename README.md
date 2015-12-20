@@ -7,9 +7,10 @@ It's deployed automatically via Travis CI at https://travis-ci.org/joelbeckham/j
 
 
 Other tools used:
-* http://www.favicon-generator.org/
-* https://analytics.google.com
-* http://www.webpagetest.org/
-* https://developers.google.com/speed/pagespeed/insights/
-* https://app.ghostinspector.com
-* https://code.visualstudio.com/
+* [Favicon Generator](http://www.favicon-generator.org/)
+* [Google Analytics](https://analytics.google.com)
+* [Web Page Test](http://www.webpagetest.org/)
+* [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
+* [GhostInspector](https://app.ghostinspector.com)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Disqus](https://publishers.disqus.com/engage)
