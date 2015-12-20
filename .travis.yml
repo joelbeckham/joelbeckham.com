@@ -20,7 +20,7 @@ deploy:
         - "js/*.js"
         - "**/*.jpg"
         - "**/*.png"
-    - max-age=3600
+    - max-age=3600:
         - "**/*.html"
         - "**/*.xml"
   on:
