@@ -18,11 +18,10 @@ deploy:
     - max-age=2592000:
         - "fonts/Genericons.woff"
         - "js/*.js"
-        - "**/*.jpg"
-        - "**/*.png"
+        - "**.jpg"
+        - "**.png"
     - max-age=3600:
-        - "**/*.html"
-        - "**/*.xml"
+        - "**"
   on:
     repo: joelbeckham/joelbeckham.com
 
