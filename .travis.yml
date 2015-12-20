@@ -21,6 +21,8 @@ deploy:
         - "**/*.jpg"
         - "**/*.png"
     - max-age=3600
+        - "**/*.html"
+        - "**/*.xml"
   on:
     repo: joelbeckham/joelbeckham.com
 
