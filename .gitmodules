@@ -1,0 +1,6 @@
+[submodule "hugo-theme-casper"]
+	path = hugo-theme-casper
+	url = C:\\Projects\\joelbeckham.com\\themes\\hugo-theme-casper
+[submodule "themes/hugo-theme-casper"]
+	path = themes/hugo-theme-casper
+	url = https://github.com/joelbeckham/hugo-theme-casper.git

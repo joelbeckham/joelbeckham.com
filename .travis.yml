@@ -4,7 +4,7 @@ go:
 sudo: required
 install:
   - go get github.com/spf13/hugo
-script: hugo --theme="casper"
+script: hugo --theme="hugo-theme-casper"
 deploy:
   provider: s3
   access_key_id: AKIAIRI7P67TRX27IPZA
