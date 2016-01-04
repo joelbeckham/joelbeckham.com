@@ -14,15 +14,7 @@ deploy:
   local-dir: public
   skip_cleanup: true
   acl: public_read
-  cache_control:
-    - max-age=3600:
-        - "**.html"
-        - "**.xml"
-    - max-age=2592000:
-        - "fonts/Genericons.woff"
-        - "js/*.js"
-        - "**.jpg"
-        - "**.png"
+  cache_control: "max-age=3600"
   on:
     repo: joelbeckham/joelbeckham.com
 
