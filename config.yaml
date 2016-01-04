@@ -1,13 +1,11 @@
 baseurl: http://www.joelbeckham.com/
 name: Joel Beckham
 title: Joel Beckham
-description: Stuff I do
 paginate: 5
 Copyright: © 2016
 DisqusShortname: joelbeckham
 
 params:
-  description: stuff I'm thinking about
   cover: images/denali-header.jpg
   bio: my bio
   googleAnalyticsUserID: UA-25230119-1
