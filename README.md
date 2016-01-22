@@ -11,6 +11,7 @@ Other tools used:
 * [Google Analytics](https://analytics.google.com)
 * [Web Page Test](http://www.webpagetest.org/)
 * [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
+* [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en)
 * [GhostInspector](https://app.ghostinspector.com)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Disqus](https://publishers.disqus.com/engage)
